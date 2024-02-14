@@ -5,8 +5,6 @@ async function decrypt() {
     let rawKeyArrReverse  = rawKeyArr .reverse();
     let key = rawKeyArrReverse.join("");
 
-    console.log(key);
-
     let encryptedArr = ["U2FsdGVkX19ROrDUnPRpRLBYTw6s0vPYq+kqXLX3GPyPghVnU0szZFAgTjt9ERyLTMbQOHKXNFYjLM9lFGzF4Q==",
                     "U2FsdGVkX1/MKm5lrABj8LWqIXu2R7zvmB/33nBYHr7kW6ldTtb9xT88A9EVIrTzT35olvL4XlzS/fpbCXvyCX9anQvd69C+3Xo/txd7XOc+myyDhbo8NIihpysUQL+1aQIcY7ijK1V+YH7GIYQdh0jx3qv4/twX1qZdi61vwFDJMfbJOfOmCTkBr1HqQjI1ReFIhbULVzF3L9OLUMsG9X+AFvppoPVTSgVNx6JGpSRxHFzdfBd9Bwry4MjzXUDUAM9mDRkNYoxvGTjOPNIGUliYr03CNmwlSBRx15B9RYM=",
                     "U2FsdGVkX1/Dzc87dDgouoDsemr8i7sS0BNqHrPwpJJKqajg1pKt9yFj3ettsgsgKGzEv1HRVKF0Ku+3cP3lwTQvcakJAaRmO/IQ6MUE0A9NuJXY8XX1MjwHHVPRRwwWbsBHKj9ppJisn4zUO2SS/JrU59Yqx1CloduLnIUVOabceRoHp5LSU9qGQdiqt3thEARJpaKRFqYjRbyZAgcW+1aE+3engytrk0kO1LiquyzcYc06vCfhwWjPdvDyiLGhktzuIhyrR1VEXUwJ/Hm8/V+Dd/dtTSufSl40BTXi3FDzGkghQ9A9+HPv6arZ6rcZVBqV7m+rBmbF6LjIQ3AZcCzPtN/lPoIHpVlX3TCxdQyhheiNjPRV26rq+JBVSykWUEDvh+T9hNGjr+ItoKmk4wgv52hFZRdBh01VaoZBuICqDHqdfxw4SHm3VB+W+svp9UfdsocmuRV8EXmy9OHCpp2zFRK1ZfO6ZMzhUadT3zI=",
