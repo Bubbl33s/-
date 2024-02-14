@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow: hidden;
+}
+
+#text-container {
+    width: 80vw;
+    margin: 20vh auto;
+}
